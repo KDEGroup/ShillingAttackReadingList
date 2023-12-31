@@ -1,178 +1,283 @@
-
-# Awesome Adversarial Learning on Recommender System (Updating)
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
-[![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-![](https://img.shields.io/github/license/EdisonLeeeee/RS-Adversarial-Learning)
+# Shilling Attack and Defense on Recommender System (Updating)
 
 ### 👉 Table of Contents 👈
 - [Attack](#attack)
-	- [2022](#2022)
-	- [2021](#2021)
-	- [2020](#2020)
-	- [2019](#2019)
-	- [2018](#2018)
-	- [2017](#2017)
-	- [2016](#2016)
+  * [2023](#2023)
+  * [2022](#2022)
+  * [2021](#2021)
+  * [2020](#2020)
+  * [2019](#2019)
+  * [2018](#2018)
+  * [2017](#2017)
+  * [2016](#2016)
+  * [2015](#2015)
+  * [2014](#2014)
+  * [2013](#2013)
+  * [2005](#2005)
+  * [2004](#2004)
+  * [2002](#2002)
 - [Defense](#defense)
-	- [2021](#2021-1)
-	- [2020](#2020-1)
-	- [2019](#2019-1)
-	- [2018](#2018-1)
-	- [2017](#2017-1)
-	- [2016](#2016-1)
+  * [2023](#2023-1)
+  * [2022](#2022-1)
+  * [2021](#2021-1)
+  * [2020](#2020-1)
+  * [2019](#2019-1)
+  * [2018](#2018-1)
+  * [2017](#2017-1)
+  * [2016](#2016-1)
+  * [2015](#2015-1)
+  * [2014](#2014-1)
+  * [2012](#2012)
+  * [2009](#2009)
+  * [2008](#2008)
+  * [2007](#2007)
+  * [2006](#2006)
+  * [2005](#2005-1)
 - [Survey](#survey)
-- [Resource](#resource)
-- [Slides](#slides)
-
+  * [2022](#2022-2)
+  * [2021](#2021-2)
+  * [2020](#2020-2)
+  * [2014](#2014-2)
+  * [2008](#2008-1)
+- [Tutorial](#tutorial)
+  * [2023](#2023-2)
+  * [2020-2021](#2020-2021)
+- [Library](#library)
+  * [2023](#2023-3)
 
 # Attack
 
+## 2023
+
+- **Adversarial Attacks for Black-Box Recommender Systems via Copying Transferable Cross-Domain User Profiles**, *TKDE*. [📝Paper](https://ieeexplore.ieee.org/document/10114977)
+- **Influence-Driven Data Poisoning for Robust Recommender Systems**, *TPAMI*. [📝Paper](https://ieeexplore.ieee.org/document/10122715), [📃Code](https://github.com/Daftstone/Inf_recommender)
+- **Planning Data Poisoning Attacks on Heterogeneous Recommender Systems in a Multiplayer Setting**, *ICDE*. [📝Paper](https://ieeexplore.ieee.org/document/10184597), [📃Code](https://github.com/jimmy-academia/MSOPDS)
+- **Poisoning GNN-based Recommender Systems with Generative Surrogate-based Attacks**, *TOIS*. [📝Paper](https://dl.acm.org/doi/10.1145/3567420)
+- **Poisoning Self-supervised Learning Based Sequential Recommendations**, *SIGIR*. [📝Paper](https://dl.acm.org/doi/10.1145/3539618.3591751), [📃Code](https://github.com/CongGroup/Poisoning-SSL-based-RS)
+- **Practical Cross-System Shilling Attacks with Limited Access to Data**, *AAAI*. [📝Paper](https://ojs.aaai.org/index.php/AAAI/article/view/25612), [📃Code](https://github.com/KDEGroup/PC-Attack)
+- **Revisiting Item Promotion in GNN-Based Collaborative Filtering: A Masked Targeted Topological Attack Perspective**, *AAAI*. [📝Paper](https://ojs.aaai.org/index.php/AAAI/article/view/26774)
+- **Shilling Black-box Review-based Recommender Systems through Fake Review Generation**, *KDD*. [📝Paper](https://dl.acm.org/doi/10.1145/3580305.3599502), [📃Code](https://github.com/hongyuntw/RBRS-ARG)
+- **Single-User Injection for Invisible Shilling Attack against Recommender Systems**, *CIKM*. [📝Paper](https://dl.acm.org/doi/10.1145/3583780.3615062), [📃Code](https://github.com/kdegroup/sui-attack)
+- **Targeted Shilling Attacks on GNN-based Recommender Systems**, *CIKM*. [📝Paper](https://dl.acm.org/doi/10.1145/3583780.3615073)
+- **The Dark Side of Explanations: Poisoning Recommender Systems with Counterfactual Examples**, *SIGIR*. [📝Paper](https://dl.acm.org/doi/abs/10.1145/3539618.3592070)
+- **UA-FedRec: Untargeted Attack on Federated News Recommendation**, *KDD*. [📝Paper](https://dl.acm.org/doi/10.1145/3580305.3599923), [📃Code](https://github.com/yjw1029/UA-FedRec)
+- **Untargeted Black-box Attacks for Social Recommendations**, *arXiv*. [📝Paper](https://arxiv.org/abs/2311.07127)
+- **Targeted Data Poisoning Attack on News Recommendation System by Content Perturbation**, *arXiv*. [📝Paper](https://arxiv.org/abs/2203.03560)
+- **Poisoning Attacks Against Contrastive Recommender Systems**, *arXiv*. [📝Paper](https://arxiv.org/abs/2311.18244)
+- **Topic-oriented Adversarial Attacks against Black-box Neural Ranking Models**, *arXiv*. [📝Paper](https://arxiv.org/abs/2304.14867)
+
 ## 2022
-+ **PipAttack: Poisoning Federated Recommender Systems for Manipulating Item Promotion**, *WSDM*,  [📝Paper](https://arxiv.org/abs/2110.10926)
-+ **Targeted Data Poisoning Attack on News Recommendation System**， *Arxiv*, [📝Paper](https://arxiv.org/abs/2203.03560)
-+ **FedRecAttack: Model Poisoning Attack to Federated Recommendation**, *ICDE*, [📝Paper](https://arxiv.org/abs/2204.01499), [:octocat:Code](https://github.com/rdz98/FedRecAttack)
-+ **Poisoning Deep Learning based Recommender Model in Federated Learning Scenarios**, *IJCAI*, [📝Paper](https://arxiv.org/abs/2204.13594)
+
+- **FedAttack: Effective and Covert Poisoning Attack on Federated Recommendation via Hard Sampling**, *KDD*. [📝Paper](https://dl.acm.org/doi/10.1145/3534678.3539119), [📃Code](https://github.com/wuch15/FedAttack)
+- **Gray-Box Shilling Attack: An Adversarial Learning Approach**, *TIST*. [📝Paper](https://dl.acm.org/doi/full/10.1145/3512352)
+- **Knowledge-enhanced Black-box Attacks for Recommendations**, *KDD*. [📝Paper](https://dl.acm.org/doi/10.1145/3534678.3539359)
+- **PipAttack: Poisoning Federated Recommender Systems for Manipulating Item Promotion**, *WSDM*. [📝Paper](https://dl.acm.org/doi/10.1145/3488560.3498386)
+- **Revisiting Injective Attacks on Recommender Systems**, *NeurIPS*. [📝Paper](https://proceedings.neurips.cc/paper_files/paper/2022/hash/c1bb0e3b062f0a443f2cc8a4ec4bb30d-Abstract-Conference.html)
+- **Shilling Black-box Recommender Systems by Learning to Generate Fake User Profiles**, *TNNLS*. [📝Paper](https://ieeexplore.ieee.org/document/9806457), [📃Code](https://github.com/XMUDM/ShillingAttack)
 
 ## 2021
-+ **A Black-Box Attack Model for Visually-Aware Recommender Systems**, *WSDM*, [📝Paper](https://arxiv.org/abs/2011.02701)
-+ **Ready for Emerging Threats to Recommender Systems? A Graph Convolution-based Generative Shilling Attack**, *Information Sciences*, [📝Paper](https://arxiv.org/abs/2107.10457)
-+ **Data Poisoning Attack against Recommender System Using Incomplete and Perturbed Data**, *KDD*, [📝Paper](https://dl.acm.org/doi/abs/10.1145/3447548.3467233)
-+ **Triple Adversarial Learning for Influence based Poisoning Attack in Recommender Systems**, *KDD*, [📝Paper](https://dl.acm.org/doi/abs/10.1145/3447548.3467335)
-+ **Black-Box Attacks on Sequential Recommenders via Data-Free Model Extraction**, *RecSys*,  [📝Paper](https://arxiv.org/abs/2109.01165)
-+ **Membership Inference Attacks Against Recommender Systems**, *Arxiv*,  [📝Paper](https://arxiv.org/abs/2109.08045)
 
+- **A Black-Box Attack Model for Visually-Aware Recommender Systems**, *NDSS*. [📝Paper](https://dl.acm.org/doi/10.1145/3437963.3441757), [📃Code](https://github.com/vis-rs-attack/code)  
+- **Attacking Black-box Recommendations via Copying Cross-domain User Profiles**, *ICDE*. [📝Paper](https://ieeexplore.ieee.org/document/9458627)
+- **Attacking Recommender Systems With Plausible Profile**, *TIFS*. [📝Paper](https://ieeexplore.ieee.org/document/9555630)
+- **Black-Box Attacks on Sequential Recommenders via Data-Free Model Extraction**, *RecSys*.  [📝Paper](https://dl.acm.org/doi/10.1145/3460231.3474275), [📃Code](https://github.com/Yueeeeeeee/RecSys-Extraction-Attack)
+- **Data Poisoning Attack against Recommender System Using Incomplete and Perturbed Data**, *KDD*. [📝Paper](https://dl.acm.org/doi/abs/10.1145/3447548.3467233)
+- **Data Poisoning Attacks to Deep Learning Based Recommender Systems**, *NDSS*. [📝Paper](https://www.ndss-symposium.org/ndss-paper/data-poisoning-attacks-to-deep-learning-based-recommender-systems/)
+- **Ready for Emerging Threats to Recommender Systems? A Graph Convolution-based Generative Shilling Attack**, *Information Sciences*. [📝Paper](https://www.sciencedirect.com/science/article/abs/pii/S0020025521007313)
+- **Reverse Attack: Black-box Attacks on Collaborative Recommendation**, *CCS*. [📝Paper](https://dl.acm.org/doi/10.1145/3460120.3484805)
+- **Triple Adversarial Learning for Influence based Poisoning Attack in Recommender Systems**, *KDD*. [📝Paper](https://dl.acm.org/doi/abs/10.1145/3447548.3467335), [📃Code](https://github.com/Daftstone/TrialAttack)
 
 ## 2020
-+ **Data Poisoning Attacks on Neighborhood-based Recommender Systems**, *ETT*, [📝Paper](https://arxiv.org/abs/1912.04109)
-+ **Attacking Black-box Recommendations via Copying Cross-domain User Profiles**, *Arxiv*, [📝Paper](https://arxiv.org/abs/2005.08147)
-+ **Adversarial Attacks and Detection on Reinforcement Learning-Based Interactive Recommender Systems**, *SIGIR*, [📝Paper](https://arxiv.org/abs/2006.07934)
-+ **Adversarial Attacks on Linear Contextual Bandits**, *Arxiv*, [📝Paper](https://arxiv.org/pdf/2002.03839)
-+ **Adversarial Item Promotion: Vulnerabilities at the Core of Top-N Recommenders that Use Images to Address Cold Start**, *Arxiv*, [📝Paper](https://arxiv.org/abs/2006.01888), [:octocat:Code](https://github.com/liuzrcc/AIP)
-+ **Influence Function based Data Poisoning Attacks to Top-N Recommender Systems**, *WWW*, [📝Paper](https://arxiv.org/abs/2002.08025)
-+ **TAaMR: Targeted Adversarial Attack against Multimedia Recommender Systems**, *Dependable and Secure Machine Learning (DSML)*, [📝Paper](http://sisinflab.poliba.it/publications/2020/DMM20/PID6442119.pdf), [:octocat:Code](https://github.com/sisinflab/TAaMR)
-+ **Adversarial Attacks on Time Series**, *IEEE Transactions on Pattern Analysis and Machine Intelligence*, [📝Paper](https://ieeexplore.ieee.org/abstract/document/9063523)
-+ **Attacking Recommender Systems with Augmented User Profiles**, *Arxiv*, [📝Paper](https://arxiv.org/abs/2005.08164)
-+ **Practical Data Poisoning Attack against Next-Item Recommendation**, *WWW*, [📝Paper](https://dl.acm.org/doi/abs/10.1145/3366423.3379992)
-+ **PoisonRec: An Adaptive Data Poisoning Framework for Attacking Black-box Recommender Systems**, *ICDE*, [📝Paper](https://ieeexplore.ieee.org/abstract/document/9101655)
-+ **Data Poisoning Attacks against Differentially Private Recommender Systems**, *SIGIR*, [📝Paper](https://dl.acm.org/doi/abs/10.1145/3397271.3401301)
-+ **Revisiting Adversarially Learned Injection Attacks Against Recommender Systems**, *RecSys*,  [📝Paper](https://arxiv.org/abs/2008.04876)
 
-
-
-
+- **Attacking Recommender Systems with Augmented User Profiles**, *CIKM*. [📝Paper](https://dl.acm.org/doi/10.1145/3340531.3411884), [📃Code](https://github.com/XMUDM/ShillingAttack)
+- **How Dataset Characteristics Affect the Robustness of Collaborative Recommendation Modelss**, *SIGIR*. [📝Paper](https://dl.acm.org/doi/10.1145/3397271.3401046)
+- **Influence Function based Data Poisoning Attacks to Top-N Recommender Systems**, *WWW*. [📝Paper](https://dl.acm.org/doi/10.1145/3366423.3380072)
+- **PoisonRec: An Adaptive Data Poisoning Framework for Attacking Black-box Recommender Systems**, *ICDE*. [📝Paper](https://ieeexplore.ieee.org/document/9101655)
+- **Practical Data Poisoning Attack against Next-Item Recommendation**, *WWW*. [📝Paper](https://dl.acm.org/doi/abs/10.1145/3366423.3379992)
+- **Revisiting Adversarially Learned Injection Attacks Against Recommender Systems.**, *RecSys*. [📝Paper](https://dl.acm.org/doi/10.1145/3383313.3412243), [📃Code](https://github.com/graytowne/revisit_adv_rec)  
 
 ## 2019
-+ **Adversarial Attacks on an Oblivious Recommender**, *RecSys*, [📝Paper](https://dl.acm.org/doi/10.1145/3298689.3347031)
-+ **Targeted Poisoning Attacks on Social Recommender Systems**, *IEEE Global Communications Conference (GLOBECOM)*, [📝Paper](https://ieeexplore.ieee.org/document/9013539)
-+ **Data Poisoning Attacks on Graph Convolutional Matrix Completion**，*International Conference on Algorithms and Architectures for Parallel Processing*,  [📝Paper](https://link.springer.com/chapter/10.1007/978-3-030-38961-1_38)
-+ **Data Poisoning Attacks on Stochastic Bandits**, *ICML*,  [📝Paper](https://arxiv.org/abs/1905.06494)
-+ **Data Poisoning Attacks on Cross-domain Recommendation**, *CIKM*, [📝Paper](https://dl.acm.org/doi/abs/10.1145/3357384.3358116)
-+ **Assessing the Impact of a User-Item Collaborative Attack on Class of Users**, *RecSys Workshop*, 📝[Paper](https://arxiv.org/abs/1908.07968)
 
-
-
+- **Adversarial Attacks on an Oblivious Recommender**, *RecSys*. [📝Paper](https://dl.acm.org/doi/10.1145/3298689.3347031)
+- **Data Poisoning Attacks on Cross-domain RecommendationData Poisoning Attacks on Cross-domain Recommendation**, *CIKM*. [📝Paper](https://dl.acm.org/doi/abs/10.1145/3357384.3358116)
 
 ## 2018
-+ **Poisoning attacks to graph-based recommender systems**, *Annual Computer Security Applications Conference (ACSAC)*, [📝Paper](https://arxiv.org/abs/1809.04127), [:octocat:Code](https://github.com/alanefl/graph-based-recommender-attacks)
 
-
+- **Poisoning Attacks to Graph-Based Recommender Systems**, *ACSAC*. [📝Paper](https://dl.acm.org/doi/10.1145/3274694.3274706)
 
 ## 2017
-+ **Fake Co-visitation Injection Attacks to Recommender Systems**, *NDSS*, [📝Paper](http://people.duke.edu/~zg70/papers/ndss17-attackRS.pdf)
-+ **Hybrid attacks on model-based social recommender systems**, *Physica A: Statistical Mechanics and its Applications*, [📝Paper](https://www.sciencedirect.com/science/article/abs/pii/S0378437117303436)
+
+- **Fake Co-visitation Injection Attacks to Recommender Systems**, *NDSS*. [📝Paper](https://www.ndss-symposium.org/ndss2017/ndss-2017-programme/fake-co-visitation-injection-attacks-recommender-systems/)
 
 ## 2016
-+ **Data Poisoning Attacks on Factorization-Based Collaborative Filtering**, *NIPS*, [📝Paper](https://arxiv.org/abs/1608.08182), [:octocat:Code](https://github.com/fuying-wang/Data-poisoning-attacks-on-factorization-based-collaborative-filtering)
-+ **Segment-Focused Shilling Attacks against Recommendation Algorithms in Binary Ratings-based Recommender Systems**, *International Journal of Hybrid Information Technology*, [📝Paper](https://www.semanticscholar.org/paper/Segment-Focused-Shilling-Attacks-against-Algorithms-Zhang/5c7e96dcaf253f37904f91fdb6fdd6f486dba134)
-+ **Shilling attack models in recommender system**, *International Conference on Inventive Computation Technologies (ICICT)*, [📝Paper](https://ieeexplore.ieee.org/document/7824865)
 
+- **Data Poisoning Attacks on Factorization-Based Collaborative Filtering**, *NeurIPS*. [📝Paper](https://proceedings.neurips.cc/paper/2016/hash/83fa5a432ae55c253d0e60dbfa716723-Abstract.html)
 
+## 2015
+
+- **Collaborative Filtering Under a Sybil Attack: Analysis of a Privacy Threat**, *EuroSec*. [📝Paper](https://dl.acm.org/doi/10.1145/2751323.2751328)
+
+## 2014
+
+- **Assessing Impacts of a Power User Attack on a Matrix Factorization Collaborative Recommender System**, *FLAIRS*. [📝Paper](https://aaai.org/papers/flairs-2014-7835/)
+- **Attacking Item-Based Recommender Systems with Power Items**, *RecSys*. [📝Paper](https://dl.acm.org/doi/abs/10.1145/2645710.2645722)
+- **Evil Twins: Modeling Power Users in Attacks on Recommender Systems**, *UMAP*. [📝Paper](https://link.springer.com/chapter/10.1007/978-3-319-08786-3_20)
+
+## 2013
+
+- **Shilling Attacks against Memory-Based Privacy-Preserving Recommendation Algorithms**, *TIIS*. [📝Paper](https://avesis.akdeniz.edu.tr/yayin/4ae1f8bd-1178-4bde-b1ce-997cd2f61f21/shilling-attacks-against-memory-based-privacy-preserving-recommendation-algorithms)
+- **Take This Personally: Pollution Attacks on Personalized Services**, *USENIX Security Symposium*. [📝Paper](https://www.usenix.org/conference/usenixsecurity13/technical-sessions/paper/xing)
+- **When Power Users Attack: Assessing Impacts in Collaborative Recommender Systems**, *RecSys*. [📝Paper](https://dl.acm.org/doi/abs/10.1145/2507157.2507220)
+
+## 2005
+
+- **Effective Attack Models for Shilling Item-Based Collaborative Filtering System**, *WEBKDD*. [📝Paper](https://www.researchgate.net/profile/Robin-Burke-3/publication/243787659_Effective_Attack_Models_for_Shilling_Item-Based_Collaborative_Filtering_Systems/links/0c96053aafccfd7e5d000000/Effective-Attack-Models-for-Shilling-Item-Based-Collaborative-Filtering-Systems.pdf)
+- **Limited Knowledge Shilling Attacks in Collaborative Filtering Systems**, *IJCAI*. [📝Paper](http://facweb.cs.depaul.edu/mobasher/research/papers/sp-itwp05.pdf)
+- **Recommender Systems: Attack Types and Strategies**, *AAAI*. [📝Paper](https://dl.acm.org/doi/abs/10.5555/1619332.1619387)
+- **Segment-Based Injection Attacks against Collaborative Filtering Recommender Systems**, *ICDM*. [📝Paper](https://ieeexplore.ieee.org/document/1565730)
+
+## 2004
+
+- **Shilling Recommender Systems for Fun and Profit**, *WWW*. [📝Paper](https://dl.acm.org/doi/abs/10.1145/988672.988726)
+
+## 2002
+
+- **Promoting Recommendations: An Attack on Collaborative Filtering**, *DEXA*. [📝Paper](https://link.springer.com/chapter/10.1007/3-540-46146-9_49)
 
 # Defense
 
+## 2023
+
+- **Anti-FakeU: Defending Shilling Attacks on Graph Neural Network based Recommender Model**, *WWW*. [📝Paper](https://dl.acm.org/doi/abs/10.1145/3543507.3583289)
+- **Enhancing Adversarial Robustness of Multi-modal Recommendation via Modality Balancing**, *MM*. [📝Paper](https://dl.acm.org/doi/abs/10.1145/3581783.3612337)
+- **Influence-Driven Data Poisoning for Robust Recommender Systems**, *TPAMI*. [📝Paper](https://ieeexplore.ieee.org/abstract/document/10122715)
+- **On the Vulnerability of Graph Learning-based Collaborative Filtering**, *TOIS*. [📝Paper](https://dl.acm.org/doi/full/10.1145/3572834)
+- **Towards Adversarially Robust Recommendation from Adaptive Fraudster Detection**, *TIFS*. [📝Paper](https://ieeexplore.ieee.org/abstract/document/10296883)    
+- **PORE: Provably Robust Recommender Systems against Data Poisoning Attacks**, *arXiv*. [📝Paper](https://arxiv.org/abs/2303.14601), [📃Code](https://github.com/liu00222/PORE-Provably-Robust-Recommender-Systems-against-Data-Poisoning-Attacks)
+- **Toward Robust Recommendation via Real-time Vicinal Defense**, *arXiv*. [📝Paper](https://arxiv.org/abs/2309.17278)
+
+## 2022
+
+- **Defending Substitution-Based Profile Pollution Attacks on Sequential Recommenders**, *RecSys*. [📝Paper](https://dl.acm.org/doi/abs/10.1145/3523227.3546770), [📃Code](https://github.com/Yueeeeeeee/RecSys-Substitution-Defense)
+- **Detect Professional Malicious User With Metric Learning in Recommender Systems**, *TKDE*. [📝Paper](https://ieeexplore.ieee.org/abstract/document/9271919)
+- **RGRecSys: A Toolkit for Robustness Evaluation of Recommender Systems**, *WSDM*. [📝Paper](https://dl.acm.org/doi/abs/10.1145/3488560.3502192), [📃Code](https://github.com/salesforce/rgrecsys)
+- **Three Birds with One Stone: User Intention Understanding and Influential Neighbor Disclosure for Injection Attack Detection**, *TIFS*. [📝Paper](https://ieeexplore.ieee.org/abstract/document/9693911)
+- **Towards Robust Recommender Systems via Triple Cooperative Defense**, *WISE*. [📝Paper](https://link.springer.com/chapter/10.1007/978-3-031-20891-1_40), [📃Code](https://github.com/greensun0830/TCD)
+
 ## 2021
 
-+ **Graph Embedding for Recommendation against Attribute Inference Attacks**, *WWW*,  [📝Paper](https://arxiv.org/pdf/2101.12549.pdf)
-+ **Understanding the Effects of Adversarial Personalized Ranking Optimization Method on Recommendation Quality**, *Arxiv*, 📝[Paper](https://arxiv.org/abs/2107.13876)
+- **Fight Fire with Fire: Towards Robust Recommender Systems via Adversarial Poisoning Training**, *SIGIR*. [📝Paper](https://dl.acm.org/doi/abs/10.1145/3404835.3462914), [📃Code](https://github.com/rastegarpanah/antidote-data-framework)
+- **Identification of Malicious Injection Attacks in Dense Rating and Co-Visitation Behaviors**, *TIFS*. [📝Paper](https://ieeexplore.ieee.org/abstract/document/9167299)
 
 ## 2020
-+ **GCN-Based User Representation Learning for Unifying Robust Recommendation and Fraudster Detection**, *Arxiv*,  [📝Paper](https://arxiv.org/abs/2005.10150)
-+ **On Detecting Data Pollution Attacks On Recommender Systems Using Sequential GANs**, *ICML*,  [📝Paper](https://arxiv.org/abs/2012.02509)
-+ **A Robust Hierarchical Graph Convolutional Network Model for Collaborative Filtering**, *Arxiv*, [📝Paper](https://arxiv.org/abs/2004.14734)
-+ **Adversarial Collaborative Auto-encoder for Top-N Recommendation**, *Arxiv*, [📝Paper](https://arxiv.org/abs/1808.05361)
-+ **Adversarial Attacks and Detection on Reinforcement Learning-Based Interactive Recommender Systems**, *Arxiv*, [📝Paper](https://arxiv.org/abs/2006.07934)
-+ **Adversarial Learning to Compare: Self-Attentive Prospective Customer Recommendation in Location based Social Networks**, *WSDM*, [📝Paper](https://dl.acm.org/doi/abs/10.1145/3336191.3371841)
-+ **Certifiable Robustness to Discrete Adversarial Perturbations for Factorization Machines**, *SIGIR*, [📝Paper](http://jiyang3.web.engr.illinois.edu/files/fm-rt.pdf)
-+ **Directional Adversarial Training for Recommender Systems**, *ECAI*, [📝Paper](http://ecai2020.eu/papers/300_paper.pdf)
-+ **Shilling Attack Detection Scheme in Collaborative Filtering Recommendation System Based on Recurrent Neural Network**, *Future of Information and Communication Conference*, [📝Paper](https://link.springer.com/chapter/10.1007/978-3-030-39445-5_46)
-+ **Learning Product Rankings Robust to Fake Users**， *Arxiv*, [📝Paper](https://arxiv.org/abs/2009.05138)
-+ **Privacy-Aware Recommendation with Private-Attribute Protection using Adversarial Learning**, *WSDM*, [📝Paper](https://arxiv.org/abs/1911.09872)
-+ **Quick and accurate attack detection in recommender systems through user attributes**, *RecSys*,  [📝Paper](https://dl.acm.org/doi/10.1145/3298689.3347050)
-+ **Global and Local Differential Privacy for Collaborative Bandits**, *RecSys*,  [📝Paper](https://dl.acm.org/doi/pdf/10.1145/3383313.3412254)
-+ **Towards Safety and Sustainability: Designing Local Recommendations for Post-pandemic World**, *RecSys*,  [📝Paper](https://dl.acm.org/doi/pdf/10.1145/3383313.3412251)
-+ **GCN-Based User Representation Learning for Unifying Robust Recommendation and Fraudster Detection**, *RecSys*,  [📝Paper](https://dl.acm.org/doi/abs/10.1145/3397271.3401165)
 
-
-
+- **GCN-Based User Representation Learning for Unifying Robust Recommendation and Fraudster Detection**, *SIGIR*. [📝Paper](https://dl.acm.org/doi/10.1145/3397271.3401165), [📃Code](https://github.com/zsjdddhr/GraphRfi)
+- **On Detecting Data Pollution Attacks On Recommender Systems Using Sequential GANs**, *arXiv*. [📝Paper](https://arxiv.org/abs/2012.02509)
 
 ## 2019
-+ **Adversarial Training Towards Robust Multimedia Recommender System**, *TKDE*, [📝Paper](https://graphreason.github.io/papers/35.pdf), [:octocat:Code](https://github.com/duxy-me/AMR)
-+ **Adversarial Collaborative Neural Network for Robust Recommendation**, *SIGIR*, [📝Paper](https://www.researchgate.net/publication/332861957_Adversarial_Collaborative_Neural_Network_for_Robust_Recommendation)
-+ **Adversarial Mahalanobis Distance-based Attentive Song Recommender for Automatic Playlist Continuation**, *SIGIR*, [📝Paper](http://web.cs.wpi.edu/~kmlee/pubs/tran19sigir.pdf), [:octocat:Code](https://github.com/thanhdtran/MASR)
-+ **Adversarial tensor factorization for context-aware recommendation**, *RecSys*, [📝Paper](https://dl.acm.org/doi/10.1145/3298689.3346987), [:octocat:Code]
-+ **Adversarial Training-Based Mean Bayesian Personalized Ranking for Recommender System**, *IEEE Access*, [📝Paper](https://ieeexplore.ieee.org/document/8946325)
-+ **Securing the Deep Fraud Detector in Large-Scale E-Commerce Platform via Adversarial Machine Learning Approach**，*WWW*, [📝Paper](https://www.ntu.edu.sg/home/boan/papers/WWW19.pdf)
-+ **Shilling Attack Detection in Recommender System Using PCA and SVM**, *Emerging technologies in data mining and information security*, [📝Paper](https://link.springer.com/chapter/10.1007/978-981-13-1498-8_55)
 
-
-
+- **Enhancing the Robustness of Neural Collaborative Filtering Systems under Malicious Attacks**, *TMM*. [📝Paper](https://ieeexplore.ieee.org/document/8576563)
+- **Evaluating Recommender System Stability with Influence-Guided Fuzzing**, *AAAI*. [📝Paper](https://ojs.aaai.org/index.php/AAAI/article/view/4423)
+- **Quick and Accurate Attack Detection in Recommender Systems through User Attributes**, *RecSys*. [📝Paper](https://dl.acm.org/doi/abs/10.1145/3298689.3347050)
 
 ## 2018
-+ **Adversarial Personalized Ranking for Recommendation**, *SIGIR*, [📝Paper](https://dl.acm.org/citation.cfm?id=3209981),  [:octocat:Code](https://github.com/hexiangnan/adversarial_personalized_ranking)
-+ **A shilling attack detector based on convolutional neural network for collaborative recommender system in social aware network**, *The Computer Journal*, [📝Paper](https://academic.oup.com/comjnl/article-abstract/61/7/949/4835634)
-+ **Adversarial Sampling and Training for Semi-Supervised Information Retrieval**, *WWW*, [📝Paper](https://arxiv.org/abs/1506.05752)
-+ **Enhancing the Robustness of Neural Collaborative Filtering Systems Under Malicious Attacks**, *IEEE Transactions on Multimedia*, [📝Paper](https://ieeexplore.ieee.org/document/8576563)
-+ **An Obfuscated Attack Detection Approach for Collaborative Recommender Systems**, *Journal of computing and information technology*,  [📝Paper](https://hrcak.srce.hr/203982)
 
+- **Unorganized Malicious Attacks Detection**, *NeurIPS*. [📝Paper](https://proceedings.neurips.cc/paper/2018/hash/322f62469c5e3c7dc3e58f5a4d1ea399-Abstract.html)
 
 ## 2017
-+ **Detecting Abnormal Profiles in Collaborative Filtering Recommender Systems**, *Journal of Intelligent Information Systems*, [📝Paper](https://link.springer.com/article/10.1007/s10844-016-0424-5)
-+ **Detection of Proﬁle Injection Attacks in Social Recommender Systems Using Outlier Analysis**, *IEEE Big Data*, [📝Paper](http://www.cs.ucf.edu/~anahita/08258235.pdf)
-+ **Prevention of shilling attack in recommender systems using discrete wavelet transform and support vector machine**, *Eighth International Conference on Advanced Computing (ICoAC)*, [📝Paper](https://ieeexplore.ieee.org/document/7951753)
+
+- **Detecting Abnormal Profiles in Collaborative Filtering Recommender Systems**, *JIIS*. [📝Paper](https://link.springer.com/article/10.1007/s10844-016-0424-5)
 
 ## 2016
-+ **Discovering shilling groups in a real e-commerce platform**, *Online Information Review*, [📝Paper](https://www.emerald.com/insight/content/doi/10.1108/OIR-03-2015-0073/full/html)
-+ **Shilling attack detection in collaborative filtering recommender system by PCA detection and perturbation**, *International Conference on Wavelet Analysis and Pattern Recognition (ICWAPR)*, [📝Paper](https://ieeexplore.ieee.org/document/7731644)
-+ **Re-scale AdaBoost for attack detection in collaborative filtering recommender systems**, *KBS*, [📝Paper](https://www.sciencedirect.com/science/article/pii/S0950705116000861)
-+ **SVM-TIA a shilling attack detection method based on SVM and target item analysis in recommender systems**, *Neurocomputing*, [📝Paper](https://www.sciencedirect.com/science/article/abs/pii/S0925231216306038)
 
+- **Re-Scale Adaboost for Attack Detection in Collaborative Filtering Recommender Systems**, *KBS*. [📝Paper](https://www.sciencedirect.com/science/article/pii/S0950705116000861)
+
+## 2015
+
+- **Catch the Black Sheep: Unified Framework for Shilling Attack Detection Based on Fraudulent Action Propagation**, *IJCAI*. [📝Paper](https://www.ijcai.org/Abstract/15/341), [📃Code](https://github.com/Coder-Yu/SDLib)
+- **Mitigating Power User Attacks on a User-Based Collaborative Recommender System**, *FLAIRS*. [📝Paper](https://aaai.org/papers/513-flairs-2015-10451/)
+- **Shilling Attacks Detection in Recommender Systems Based on Target Item Analysis**, *PloS One*. [📝Paper](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0130968)
+
+## 2014
+
+- **Defending Recommender Systems by Influence Analysis**, *Information Retrieval*. [📝Paper](https://link.springer.com/article/10.1007/s10791-013-9224-5)
+
+## 2012
+
+- **Stability of Matrix Factorization for Collaborative Filtering**, *ICML*. [📝Paper](https://icml.cc/2012/papers/233.pdf)
+
+## 2009
+
+- **Unsupervised Strategies for Shilling Detection and Robust Collaborative Filtering**, *UMUAI*. [📝Paper](https://link.springer.com/article/10.1007/s11257-008-9050-4)
+
+## 2008
+
+- **Attack Resistant Collaborative Filtering**, *SIGIR*. [📝Paper](https://dl.acm.org/doi/10.1145/1390334.1390350)
+- **Unsupervised Retrieval of Attack Profiles in Collaborative Recommender Systems**, *RecSys*. [📝Paper](https://dl.acm.org/doi/10.1145/1454008.1454034)
+
+## 2007
+
+- **Defending Recommender Systems: Detection of Profile Injection Attacks**, *SOCA*. [📝Paper](https://link.springer.com/article/10.1007/s11761-007-0013-0)
+- **Robust Collaborative Filtering**, *RecSys*. [📝Paper](https://dl.acm.org/doi/10.1145/1297231.1297240)
+- **Robustness of Collaborative Recommendation Based on Association Rule Mining**, *RecSys*. [📝Paper](https://dl.acm.org/doi/abs/10.1145/1297231.1297249)
+- **The Influence Limiter: Provably Manipulation-Resistant Recommender Systems**, *RecSys*. [📝Paper](https://dl.acm.org/doi/10.1145/1297231.1297236)
+- **Toward trustworthy recommender systems: An Analysis of Attack Models and Algorithm Robustness**, *TOIT*. [📝Paper](https://dl.acm.org/doi/10.1145/1278366.1278372)
+- **Unsupervised Shilling Detection for Collaborative Filtering**, *AAAI*. [📝Paper](https://cdn.aaai.org/AAAI/2007/AAAI07-222.pdf)
+
+## 2006
+
+- **Classification Features for Attack Detection in Collaborative Recommender Systems**, *KDD*. [📝Paper](https://dl.acm.org/doi/10.1145/1150402.1150465)
+- **Detection of Obfuscated Attacks in Collaborative Recommender Systems**, *ECAI Workshop on Recommender Systems*. [📝Paper](http://facweb.cs.depaul.edu/mobasher/research/papers/wmbsb-ecai-ws06.pdf)
+- **Securing Collaborative Filtering against Malicious Attacks through Anomaly Detection**, *ITWP*. [📝Paper](https://www.researchgate.net/profile/Bamshad-Mobasher/publication/228945166_Securing_collaborative_filtering_against_malicious_attacks_through_anomaly_detection/links/0fcfd507477e71cb6e000000/Securing-collaborative-filtering-against-malicious-attacks-through-anomaly-detection.pdf)
+- **The Impact of Attack Profile Classification on the Robustness of Collaborative Recommendation**, *WEBKDD*. [📝Paper](https://www.researchgate.net/profile/Bamshad-Mobasher/publication/228945172_The_Impact_of_Attack_Profile_Classification_on_the_Robustness_of_Collaborative_Recommendation/links/0fcfd507477e6d1092000000/The-Impact-of-Attack-Profile-Classification-on-the-Robustness-of-Collaborative-Recommendation.pdf)
+
+## 2005
+
+- **Analysis and Detection of Segment-Focused Attacks against Collaborative Recommendation**, *WEBKDD*. [📝Paper](https://link.springer.com/chapter/10.1007/11891321_6)
+- **Finding Group Shilling in Recommendation System**, *WWW*. [📝Paper](https://dl.acm.org/doi/10.1145/1062745.1062818)
+- **Identifying Attack Models for Secure Recommendation**, *Beyond Personalization IUI*. [📝Paper](http://facweb.cs.depaul.edu/mobasher/research/papers/sp-iui05.pdf)
+- **Preventing Shilling Attacks in Online Recommender Systems**, *WIDM*. [📝Paper](https://dl.acm.org/doi/10.1145/1097047.1097061)
 
 # Survey
 
-+ **A Survey on Adversarial Recommender Systems: From Attack/Defense Strategies to Generative Adversarial Networks**, *ACM Computing Surveys (CSUR) 2021*, [📝Paper](https://dl.acm.org/doi/abs/10.1145/3439729)
-+ **Adversarial Machine Learning in Recommender Systems: State of the art and Challenges**, *Arxiv2020*, [📝Paper](https://arxiv.org/abs/2005.10322)
-+ **A Survey of Adversarial Learning on Graphs**, *Arxiv2020*, [📝Paper](https://arxiv.org/abs/2003.05730)
-+ **Adversarial Attacks and Defenses on Graphs: A Review and Empirical Study**, *Arxiv2020*, [📝Paper](https://arxiv.org/abs/2003.00653)
-+ **Shilling attacks against collaborative recommender systems: a review**,  *Artificial Intelligence Review*, [📝Paper](https://link.springer.com/article/10.1007/s10462-018-9655-x)
-+ **Adversarial Attacks and Defenses in Images, Graphs and Text: A Review**, *Arxiv2019*, [📝Paper](https://arxiv.org/abs/1909.08072)
-+ **A Survey of Attacks in Collaborative Recommender Systems**, *Journal of Computational and Theoretical Nanoscience 2019*, [📝Paper](https://www.ingentaconnect.com/content/asp/jctn/2019/00000016/f0020005/art00029)
-+ **Adversarial Attack and Defense on Graph Data: A Survey**, *Arxiv2018*, [📝Paper](https://arxiv.org/abs/1812.10528)
-+ **Adversarial Machine Learning: The Case of Recommendation Systems**, *IEEE 19th International Workshop on Signal Processing Advances in Wireless Communications (SPAWC)*, [📝Paper](https://ieeexplore.ieee.org/abstract/document/8445767)
-+ **Recommender Systems: Attack Types and Strategies**, *AAAI*2005, 📝[Paper](https://www.aaai.org/Papers/AAAI/2005/AAAI05-053.pdf)
-+ **A Review of Attacks and Its Detection Attributes on Collaborative Recommender Systems**, *IJARCS2017*, 📝[Paper](http://www.ijarcs.info/index.php/Ijarcs/article/download/4550/4100)
+## 2022
 
+- **Latest Trends of Security and Privacy in Recommender Systems: A Comprehensive Review and Future Perspectives**, *Computers & Security*. [📝Paper](https://doi.org/10.1016/j.cose.2022.102746)
+- **A Survey for Trust-Aware Recommender Systems: A Deep Learning Perspective**, *KBS*. [📝Paper](https://doi.org/10.1016/j.knosys.2022.108954)
+- **Trustworthy Recommender Systems**, *arXiv*. [📝Paper](https://arxiv.org/abs/2208.06265)
+- **A Survey on Trustworthy Recommender Systems**, *arXiv*. [📝Paper](https://arxiv.org/abs/2207.12515)
+- **A Comprehensive Survey on Trustworthy Recommender Systems**, *arXiv*. [📝Paper](https://arxiv.org/abs/2209.10117)
 
-# Resource
+## 2021
 
-+ **Awesome Graph Adversarial Learning** [:octocat:Link](https://github.com/gitgiter/Graph-Adversarial-Learning)
-+ **Awesome Graph Attack and Defense Papers** [:octocat:Link](https://github.com/ChandlerBang/awesome-graph-attack-papers)
-+ **Graph Adversarial Learning Literature** [:octocat:Link](https://github.com/safe-graph/graph-adversarial-learning-literature)
-+ **A Complete List of All (arXiv) Adversarial Example Papers** [🌐Link](https://nicholas.carlini.com/writing/2019/all-adversarial-example-papers.html)
-+ **Robust Matrix Completion via Robust Gradient Descent** 🌐[Link](https://www.andrew.cmu.edu/user/andrewsi/)
-+ **Adversarial Machine Learning in Recommender Systems:Literature Review and Future Visions **  [:octocat:Link](https://github.com/sisinflab/adversarial-recommender-systems-survey)
+- **A Survey on Adversarial Recommender Systems: From Attack/Defense Strategies to Generative Adversarial Networks**, *ACM Computing Surveys*. [📝Paper](https://dl.acm.org/doi/10.1145/3439729)
 
-# Slides
+## 2020
 
-+ **UCI Lecture** 🌐[Link](https://www.math.uci.edu/~icamp/courses/math77b/lecture_12w/)
-+ **RecSys2020 Tutorial**  [:octocat:Link](https://github.com/sisinflab/amlrecsys-tutorial)
+- **Shilling Attacks against Collaborative Recommender Systems: A Review**, *Artificial Intelligence Review*. [📝Paper](https://link.springer.com/article/10.1007/s10462-018-9655-x)
 
+## 2014
+
+- **Shilling Attacks against Recommender Systems: A Comprehensive Survey**, *Artificial Intelligence Review*. [📝Paper](https://link.springer.com/article/10.1007/s10462-012-9364-9)
+
+## 2008
+
+- **A Survey of Attack-Resistant Collaborative Filtering Algorithms**, *Data Engineering Bulletin Issues*. [📝Paper](http://sites.computer.org/debull/A08June/mehta.pdf)
+- **A Survey of Collaborative Recommendation and the Robustness of Model-Based Algorithms**, *Data Engineering Bulletin Issues*. [📝Paper](http://sites.computer.org/debull/A08June/sandvig.pdf)
+
+# Tutorial
+
+## 2023
+
+- **Trustworthy Recommender Systems: Foundations and Frontiers**, *KDD & The Web Conference*. [🌐Website](https://advanced-recommender-systems.github.io/trustworthiness-tutorial)
+- **Trustworthy Recommender Systems: Technical, Ethical, Legal, and Regulatory Perspectives**, *RecSys*. [🌐Website](https://github.com/socialcomplab/Trustworthy-RS-Tutorial-RecSys23)
+
+## 2020-2021
+
+- **Adversarial Machine Learning in Recommender Systems**, *WSDM & RecSys & ECIR*. [🌐Website](https://github.com/sisinflab/amlrecsys-tutorial)
+
+# Library
+
+## 2023
+
+- **RecAD: Towards A Unified Library for Recommender Attack and Defense**, *RecSys*. [📝Paper](https://dl.acm.org/doi/abs/10.1145/3604915.3609490), [📃Code](https://github.com/gusye1234/recad)
