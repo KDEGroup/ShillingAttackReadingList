@@ -34,6 +34,7 @@
   * [2006](#2006)
   * [2005](#2005-1)
 - [Survey](#survey)
+  * [2024](#2024)
   * [2022](#2022-2)
   * [2021](#2021-2)
   * [2020](#2020-2)
@@ -239,6 +240,10 @@
 - **Preventing Shilling Attacks in Online Recommender Systems**, *WIDM*. [📝Paper](https://dl.acm.org/doi/10.1145/1097047.1097061)
 
 # Survey
+
+## 2024
+
+- **Poisoning Attacks against Recommender Systems: A Survey**, *arXiv*. [📝Paper](https://arxiv.org/abs/2401.01527)
 
 ## 2022
 
