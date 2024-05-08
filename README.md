@@ -2,6 +2,7 @@
 
 ### 👉 Table of Contents 👈
 - [Attack](#attack)
+  * [2024](#2024)
   * [2023](#2023)
   * [2022](#2022)
   * [2021](#2021)
@@ -47,6 +48,12 @@
   * [2023](#2023-3)
 
 # Attack
+
+## 2024
+
+- **Attacking Click-through Rate Predictors via Generating Realistic Fake Samples**, *TKDD*. [📝Paper](https://dl.acm.org/doi/10.1145/3643685)
+- **Uplift Modeling for Target User Attacks on Recommender Systems**, *arXiv*. [📝Paper](http://arxiv.org/abs/2403.02692)
+- **ToDA: Target-oriented Diffusion Attacker against Recommendation System**, *arXiv*. [📝Paper](http://arxiv.org/abs/2401.12578)
 
 ## 2023
 
@@ -243,7 +250,9 @@
 
 ## 2024
 
+- **Manipulating Recommender Systems: A Survey of Poisoning Attacks and Countermeasures**, *arXiv*. [📝Paper](http://arxiv.org/abs/2404.14942)
 - **Poisoning Attacks against Recommender Systems: A Survey**, *arXiv*. [📝Paper](https://arxiv.org/abs/2401.01527)
+- **Towards Robust Recommendation: A Review and an Adversarial Robustness Evaluation Library**, *arXiv*. [📝Paper](http://arxiv.org/abs/2404.17844)
 
 ## 2022
 
