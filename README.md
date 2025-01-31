@@ -18,6 +18,7 @@
   * [2004](#2004)
   * [2002](#2002)
 - [Defense](#defense)
+  * [2024](#2024-1)
   * [2023](#2023-1)
   * [2022](#2022-1)
   * [2021](#2021-1)
@@ -35,7 +36,7 @@
   * [2006](#2006)
   * [2005](#2005-1)
 - [Survey](#survey)
-  * [2024](#2024)
+  * [2024](#2024-2)
   * [2022](#2022-2)
   * [2021](#2021-2)
   * [2020](#2020-2)
@@ -54,6 +55,16 @@
 - **Attacking Click-through Rate Predictors via Generating Realistic Fake Samples**, *TKDD*. [📝Paper](https://dl.acm.org/doi/10.1145/3643685)
 - **Uplift Modeling for Target User Attacks on Recommender Systems**, *arXiv*. [📝Paper](http://arxiv.org/abs/2403.02692)
 - **ToDA: Target-oriented Diffusion Attacker against Recommendation System**, *arXiv*. [📝Paper](http://arxiv.org/abs/2401.12578)
+- **Collaborative Denoising Shilling Attack for Recommendation Systems**, *CSCWD*. [📝Paper](https://ieeexplore.ieee.org/document/10580115)
+- **A novel shilling attack on black-box recommendation systems for multiple targets**, *NCA*. [📝Paper](https://doi.org/10.3233/IDA-230575)
+- **PARL: Poisoning Attacks Against Reinforcement Learning-based Recommender Systems**, *AsiaCCS*. [📝Paper](https://dl.acm.org/doi/10.1145/3634737.3637660), [📃Code](https://github.com/PARL-RS/PARL)
+- **Accelerating the Surrogate Retraining for Poisoning Attacks against Recommender Systems**, *RecSys*. [📝Paper](https://dl.acm.org/doi/10.1145/3640457.3688148), [📃Code](https://github.com/WuYunfan/GradientPassingAttack)
+- **Poisoning Federated Recommender Systems with Fake Users**, *WWW*. [📝Paper](https://dl.acm.org/doi/10.1145/3589334.3645492)
+
+### other poisoning attack
+- **ClusterPoison: Poisoning Attacks on Recommender Systems with Limited Fake Users**, *Commun. Mag.*. [📝Paper](https://ieeexplore.ieee.org/document/10494850), [📃Code](https://github.com/yanling02/ClusterPoison)
+- **Eyes on Federated Recommendation: Targeted Poisoning With Competition and Its Mitigation**, *IEEE Trans. Inf. Forensics Secur.*. [📝Paper](https://ieeexplore.ieee.org/document/10739366)
+- **Poisoning Decentralized Collaborative Recommender System and Its Countermeasures**, *SIGIR*. [📝Paper](https://dl.acm.org/doi/10.1145/3626772.3657814)
 
 ## 2023
 
@@ -154,6 +165,14 @@
 
 # Defense
 
+## 2024
+- **Detecting Group Shilling Attacks In Recommender Systems Based On User Multi-dimensional Features And Collusive Behaviour Analysis**, *Comput. J.*. [📝Paper](https://doi.org/10.1093/comjnl/bxad003)
+- **A Research on Shilling Attacks Based on Variational graph auto-encoders for Improving the Robustness of Recommendation Systems**, *GAIIS*. [📝Paper](https://dl.acm.org/doi/10.1145/3665348.3665370)
+- **Unveiling Vulnerabilities of Contrastive Recommender Systems to Poisoning Attacks**, *KDD*. [📝Paper](https://dl.acm.org/doi/10.1145/3637528.3671795), [📃Code](https://github.com/CoderWZW/ARLib)
+- **Poison-Tolerant Collaborative Filtering Against Poisoning Attacks on Recommender Systems**, *IEEE Trans. Dependable Secur. Comput.*. [📝Paper](https://ieeexplore.ieee.org/document/10400891)
+- **Robust Federated Contrastive Recommender System against Model Poisoning Attack**, *arxiv*. [📝Paper](https://arxiv.org/pdf/2403.20107)
+- **LoRec: Large Language Model for Robust Sequential Recommendation against Poisoning Attacks**, *arxiv*. [📝Paper](https://arxiv.org/pdf/2401.17723)
+
 ## 2023
 
 - **Anti-FakeU: Defending Shilling Attacks on Graph Neural Network based Recommender Model**, *WWW*. [📝Paper](https://dl.acm.org/doi/abs/10.1145/3543507.3583289)
@@ -251,8 +270,8 @@
 ## 2024
 
 - **Manipulating Recommender Systems: A Survey of Poisoning Attacks and Countermeasures**, *arXiv*. [📝Paper](http://arxiv.org/abs/2404.14942)
-- **Poisoning Attacks against Recommender Systems: A Survey**, *arXiv*. [📝Paper](https://arxiv.org/abs/2401.01527)
 - **Towards Robust Recommendation: A Review and an Adversarial Robustness Evaluation Library**, *arXiv*. [📝Paper](http://arxiv.org/abs/2404.17844)
+- **Poisoning Attacks against Recommender Systems: A Survey**, *arxiv*. [📝Paper](https://arxiv.org/abs/2401.01527), [📃Code](https://github.com/CoderWZW/ARLib)
 
 ## 2022
 
