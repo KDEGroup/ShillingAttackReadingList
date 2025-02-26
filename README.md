@@ -56,13 +56,11 @@
 - **Uplift Modeling for Target User Attacks on Recommender Systems**, *arXiv*. [📝Paper](http://arxiv.org/abs/2403.02692)
 - **ToDA: Target-oriented Diffusion Attacker against Recommendation System**, *arXiv*. [📝Paper](http://arxiv.org/abs/2401.12578)
 - **Collaborative Denoising Shilling Attack for Recommendation Systems**, *CSCWD*. [📝Paper](https://ieeexplore.ieee.org/document/10580115)
-- **A novel shilling attack on black-box recommendation systems for multiple targets**, *NCA*. [📝Paper](https://doi.org/10.3233/IDA-230575)
+- **A Novel Shilling Attack on Black-Box Recommendation Systems for Multiple Targets**, *IDA*. [📝Paper](https://content.iospress.com/articles/intelligent-data-analysis/ida230575)
 - **PARL: Poisoning Attacks Against Reinforcement Learning-based Recommender Systems**, *AsiaCCS*. [📝Paper](https://dl.acm.org/doi/10.1145/3634737.3637660), [📃Code](https://github.com/PARL-RS/PARL)
 - **Accelerating the Surrogate Retraining for Poisoning Attacks against Recommender Systems**, *RecSys*. [📝Paper](https://dl.acm.org/doi/10.1145/3640457.3688148), [📃Code](https://github.com/WuYunfan/GradientPassingAttack)
 - **Poisoning Federated Recommender Systems with Fake Users**, *WWW*. [📝Paper](https://dl.acm.org/doi/10.1145/3589334.3645492)
-
-### other poisoning attack
-- **ClusterPoison: Poisoning Attacks on Recommender Systems with Limited Fake Users**, *Commun. Mag.*. [📝Paper](https://ieeexplore.ieee.org/document/10494850), [📃Code](https://github.com/yanling02/ClusterPoison)
+- **ClusterPoison: Poisoning Attacks on Recommender Systems with Limited Fake Users**, *IEEE Commun. Mag.*. [📝Paper](https://ieeexplore.ieee.org/document/10494850), [📃Code](https://github.com/yanling02/ClusterPoison)
 - **Eyes on Federated Recommendation: Targeted Poisoning With Competition and Its Mitigation**, *IEEE Trans. Inf. Forensics Secur.*. [📝Paper](https://ieeexplore.ieee.org/document/10739366)
 - **Poisoning Decentralized Collaborative Recommender System and Its Countermeasures**, *SIGIR*. [📝Paper](https://dl.acm.org/doi/10.1145/3626772.3657814)
 
@@ -166,12 +164,11 @@
 # Defense
 
 ## 2024
-- **Detecting Group Shilling Attacks In Recommender Systems Based On User Multi-dimensional Features And Collusive Behaviour Analysis**, *Comput. J.*. [📝Paper](https://doi.org/10.1093/comjnl/bxad003)
-- **A Research on Shilling Attacks Based on Variational graph auto-encoders for Improving the Robustness of Recommendation Systems**, *GAIIS*. [📝Paper](https://dl.acm.org/doi/10.1145/3665348.3665370)
+- **Detecting Group Shilling Attacks in Recommender Systems Based On User Multi-dimensional Features And Collusive Behaviour Analysis**, *Comput. J.*. [📝Paper](https://academic.oup.com/comjnl/article-abstract/67/2/604/7024503)
 - **Unveiling Vulnerabilities of Contrastive Recommender Systems to Poisoning Attacks**, *KDD*. [📝Paper](https://dl.acm.org/doi/10.1145/3637528.3671795), [📃Code](https://github.com/CoderWZW/ARLib)
 - **Poison-Tolerant Collaborative Filtering Against Poisoning Attacks on Recommender Systems**, *IEEE Trans. Dependable Secur. Comput.*. [📝Paper](https://ieeexplore.ieee.org/document/10400891)
-- **Robust Federated Contrastive Recommender System against Model Poisoning Attack**, *arxiv*. [📝Paper](https://arxiv.org/pdf/2403.20107)
-- **LoRec: Large Language Model for Robust Sequential Recommendation against Poisoning Attacks**, *arxiv*. [📝Paper](https://arxiv.org/pdf/2401.17723)
+- **Robust Federated Contrastive Recommender System against Model Poisoning Attack**, *arXiv*. [📝Paper](https://arxiv.org/pdf/2403.20107)
+- **LoRec: Large Language Model for Robust Sequential Recommendation against Poisoning Attacks**, *arXiv*. [📝Paper](https://arxiv.org/pdf/2401.17723)
 
 ## 2023
 
@@ -271,12 +268,12 @@
 
 - **Manipulating Recommender Systems: A Survey of Poisoning Attacks and Countermeasures**, *arXiv*. [📝Paper](http://arxiv.org/abs/2404.14942)
 - **Towards Robust Recommendation: A Review and an Adversarial Robustness Evaluation Library**, *arXiv*. [📝Paper](http://arxiv.org/abs/2404.17844)
-- **Poisoning Attacks against Recommender Systems: A Survey**, *arxiv*. [📝Paper](https://arxiv.org/abs/2401.01527), [📃Code](https://github.com/CoderWZW/ARLib)
+- **Poisoning Attacks against Recommender Systems: A Survey**, *arXiv*. [📝Paper](https://arxiv.org/abs/2401.01527), [📃Code](https://github.com/CoderWZW/ARLib)
 
 ## 2022
 
-- **Latest Trends of Security and Privacy in Recommender Systems: A Comprehensive Review and Future Perspectives**, *Computers & Security*. [📝Paper](https://doi.org/10.1016/j.cose.2022.102746)
-- **A Survey for Trust-Aware Recommender Systems: A Deep Learning Perspective**, *KBS*. [📝Paper](https://doi.org/10.1016/j.knosys.2022.108954)
+- **Latest Trends of Security and Privacy in Recommender Systems: A Comprehensive Review and Future Perspectives**, *Computers & Security*. [📝Paper](https://linkinghub.elsevier.com/retrieve/pii/S0167404822001419)
+- **A Survey for Trust-Aware Recommender Systems: A Deep Learning Perspective**, *KBS*. [📝Paper](https://www.sciencedirect.com/science/article/abs/pii/S0950705122004622)
 - **Trustworthy Recommender Systems**, *arXiv*. [📝Paper](https://arxiv.org/abs/2208.06265)
 - **A Survey on Trustworthy Recommender Systems**, *arXiv*. [📝Paper](https://arxiv.org/abs/2207.12515)
 - **A Comprehensive Survey on Trustworthy Recommender Systems**, *arXiv*. [📝Paper](https://arxiv.org/abs/2209.10117)
